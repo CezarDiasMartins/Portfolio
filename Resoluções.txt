@@ -1,0 +1,19 @@
+/* Mobile: max-width: 480px */
+@media (max-width: 480px) {
+}
+
+/* Tablet: max-width: 768px */
+@media (max-width: 768px) {
+}
+
+/* Telas menores/laptops: max-width: 1024px */
+@media (max-width: 1024px) {
+}
+
+/* Desktop: max-width: 1200px */
+@media (max-width: 1200px) {
+}
+
+/* Telas maiores/tvs: max-width: 1200px */
+@media (max-width: 1200px) {
+}

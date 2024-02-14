@@ -1,0 +1,262 @@
+.projetos {
+  max-width: 85%;
+  height: 500px;
+  margin: 70px auto 0 auto;
+  border: 5px solid #0d1014;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  padding-bottom: 40%;
+  transition: max-width 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projetos:hover {
+  max-width: 85.5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.projetos-conteudo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carroselStyle {
+  width: 60%;
+  height: 370px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+  width: 30%;
+  height: auto;
+}
+
+.texto h3 {
+  text-align: center;
+}
+
+.texto p {
+  margin-top: 25px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.habilidadesUsadas {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidadeUsada {
+  margin: 0 5px;
+}
+
+.habilidadeUsada img {
+  height: 30px;
+  width: 30px;
+}
+
+.repositorios {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repositorios div {
+  margin: 0 20px;
+}
+
+.repositorioLogo a svg {
+  height: 40px;
+  width: 40px;
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.repositorioLogo a svg:hover {
+  height: 42px;
+  width: 42px;
+}
+
+.repositorio a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #0d1117;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.repositorio a:hover {
+  color: #0d1117;
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .projetos-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carroselStyle .carousel-indicators {
+    display: none;
+  }
+
+  .projetos {
+    padding-bottom: 70%;
+  }
+
+  .carroselStyle {
+    width: 100%;
+    height: auto;
+  }
+
+  .texto {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 967px) {
+  .projetos {
+    padding: 40px;
+    padding-bottom: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .texto {
+    padding: 0;
+  }
+}
+
+@media (max-width: 797px) {
+  .projetos {
+    padding: 30px;
+    padding-bottom: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .projetos {
+    padding: 20px;
+    padding-bottom: 100%;
+  }
+}
+
+@media (max-width: 630px) {
+  .projetos {
+    padding: 10px;
+    padding-bottom: 110%;
+  }
+}
+
+@media (max-width: 550px) {
+  .projetos {
+    padding: 0;
+    padding-bottom: 120%;
+  }
+}
+
+@media (max-width: 512px) {
+  .projetos {
+    padding-bottom: 130%;
+  }
+}
+
+@media (max-width: 465px) {
+  .projetos {
+    padding-bottom: 140%;
+  }
+}
+
+@media (max-width: 450px) {
+  .projetos {
+    padding-bottom: 160%;
+  }
+}
+
+@media (max-width: 390px) {
+  .projetos {
+    padding-bottom: 180%;
+  }
+}
+
+@media (max-width: 350px) {
+  .projetos {
+    padding-bottom: 200%;
+  }
+}
+
+@media (max-width: 320px) {
+  .projetos {
+    padding-bottom: 220%;
+  }
+}
+
+@media (max-width: 300px) {
+  .projetos {
+    padding-bottom: 240%;
+  }
+}
+
+@media (max-width: 280px) {
+  .projetos {
+    padding-bottom: 260%;
+  }
+}
+
+@media (max-width: 266px) {
+  .projetos {
+    padding-bottom: 285%;
+  }
+}
+
+@media (max-width: 259px) {
+  .projetos {
+    padding-bottom: 300%;
+  }
+}
+
+@media (max-width: 246px) {
+  .projetos {
+    padding-bottom: 320%;
+  }
+}
+
+@media (max-width: 236px) {
+  .projetos {
+    padding-bottom: 340%;
+  }
+}
+
+@media (max-width: 224px) {
+  .projetos {
+    padding-bottom: 360%;
+  }
+}
+
+@media (max-width: 219px) {
+  .projetos {
+    padding-bottom: 380%;
+  }
+}
+
+@media (max-width: 213px) {
+  .projetos {
+    padding-bottom: 400%;
+  }
+}
+
+@media (max-width: 205px) {
+  .projetos {
+    padding-bottom: 420%;
+  }
+}

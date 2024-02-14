@@ -1,0 +1,30 @@
+.whats {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: transparent;
+}
+
+.whats a img {
+  background-color: transparent;
+  height: 70px;
+  width: 70px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.whats a img:hover {
+  height: 72px;
+  width: 72px;
+}
+
+@media (max-width: 500px) {
+  .whats a img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .whats a img:hover {
+    height: 52px;
+    width: 52px;
+  }
+}
