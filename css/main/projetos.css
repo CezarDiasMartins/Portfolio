@@ -22,11 +22,16 @@
 }
 
 .carroselStyle {
+  display: flex;
   width: 60%;
-  height: 370px;
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carroselImg{
+  align-items: center;
+  height: 300px;
 }
 
 .texto {
@@ -104,17 +109,17 @@
     align-items: center;
   }
 
-  .carroselStyle .carousel-indicators {
-    display: none;
-  }
-
   .projetos {
-    padding-bottom: 70%;
+    padding-bottom: 60%;
   }
 
   .carroselStyle {
     width: 100%;
     height: auto;
+  }
+
+  .carroselImg{
+    height: 350px;
   }
 
   .texto {
@@ -124,78 +129,163 @@
   }
 }
 
-@media (max-width: 967px) {
+@media (max-width: 1140px) {
   .projetos {
-    padding: 40px;
+    padding-bottom: 70%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .projetos {
     padding-bottom: 80%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 910px) {
+  .projetos {
+    padding-bottom: 90%;
+  }
+}
+
+@media (max-width: 825px) {
   .texto {
     padding: 0;
   }
 }
 
-@media (max-width: 797px) {
+@media (max-width: 810px) {
   .projetos {
-    padding: 30px;
-    padding-bottom: 90%;
-  }
-}
-
-@media (max-width: 700px) {
-  .projetos {
-    padding: 20px;
     padding-bottom: 100%;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 770px) {
+  .carroselImg{
+    height: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .carroselImg{
+    height: 250px;
+  }
+}
+
+@media (max-width: 650px) {
   .projetos {
-    padding: 10px;
     padding-bottom: 110%;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
+  .carroselImg{
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
   .projetos {
-    padding: 0;
     padding-bottom: 120%;
   }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 535px) {
   .projetos {
     padding-bottom: 130%;
   }
 }
 
-@media (max-width: 465px) {
+@media (max-width: 515px) {
+  .carroselImg{
+    height: 170px;
+  }
+}
+
+@media (max-width: 515px) {
   .projetos {
     padding-bottom: 140%;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 475px) {
+  .projetos {
+    padding: 20px;
+    padding-bottom: 140%;
+  }
+}
+
+@media (max-width: 452px) {
+  .projetos {
+    padding-bottom: 150%;
+  }
+}
+
+@media (max-width: 425px) {
+  .carroselImg{
+    height: 150px;
+  }
+}
+
+@media (max-width: 413px) {
   .projetos {
     padding-bottom: 160%;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
+  .projetos {
+    padding-bottom: 170%;
+  }
+}
+
+@media (max-width: 379px) {
   .projetos {
     padding-bottom: 180%;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 370px) {
+  .projetos {
+    padding: 10px;
+    padding-bottom: 180%;
+  }
+}
+
+@media (max-width: 356px) {
+  .projetos {
+    padding: 5px;
+    padding-bottom: 190%;
+  }
+
+  .carroselImg{
+    height: 140px;
+  }
+}
+
+@media (max-width: 344px) {
   .projetos {
     padding-bottom: 200%;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 328px) {
+  .projetos {
+    padding-bottom: 210%;
+  }
+}
+
+@media (max-width: 323px) {
+  .projetos {
+    padding: 3px;
+    padding-bottom: 210%;
+  }
+
+  .carroselImg{
+    height: 120px;
+  }
+}
+
+@media (max-width: 313px) {
   .projetos {
     padding-bottom: 220%;
   }
@@ -203,11 +293,30 @@
 
 @media (max-width: 300px) {
   .projetos {
+    padding: 0;
+    padding-bottom: 230%;
+  }
+}
+
+@media (max-width: 293px) {
+  .projetos {
     padding-bottom: 240%;
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 284px) {
+  .carroselImg{
+    height: 100px;
+  }
+}
+
+@media (max-width: 275px) {
+  .projetos {
+    padding-bottom: 250%;
+  }
+}
+
+@media (max-width: 270px) {
   .projetos {
     padding-bottom: 260%;
   }
@@ -215,43 +324,51 @@
 
 @media (max-width: 266px) {
   .projetos {
-    padding-bottom: 285%;
+    padding-bottom: 290%;
   }
 }
 
-@media (max-width: 259px) {
+@media (max-width: 254px) {
   .projetos {
-    padding-bottom: 300%;
+    padding-bottom: 310%;
   }
 }
 
-@media (max-width: 246px) {
+@media (max-width: 244px) {
   .projetos {
-    padding-bottom: 320%;
+    padding-bottom: 330%;
   }
 }
 
-@media (max-width: 236px) {
+@media (max-width: 230px) {
   .projetos {
-    padding-bottom: 340%;
+    padding-bottom: 350%;
   }
 }
 
-@media (max-width: 224px) {
+@media (max-width: 225px) {
   .projetos {
-    padding-bottom: 360%;
+    padding-bottom: 370%;
   }
-}
 
-@media (max-width: 219px) {
-  .projetos {
-    padding-bottom: 380%;
+  .carroselImg{
+    height: 80px;
   }
 }
 
 @media (max-width: 213px) {
   .projetos {
+    padding-bottom: 390%;
+  }
+}
+
+@media (max-width: 208px) {
+  .projetos {
     padding-bottom: 400%;
+  }
+
+  .carroselImg{
+    height: 70px;
   }
 }
 
